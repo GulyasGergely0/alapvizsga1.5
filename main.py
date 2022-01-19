@@ -24,3 +24,10 @@ Adja meg a felhasználónevét! bori99
 Adja meg a jelszavát! Szivecske<3
 Belépés engedélyezve.
 '''
+
+kerdes=input("Adja meg a felhasználónevét! ")
+jelszo=input("Adja meg a jelszavát! ")
+if jelszo == "Szivecske<3" and kerdes == "bori99":
+  print("Belépés engedélyezve.")
+else:
+  print("Belépés megtagadva.")
